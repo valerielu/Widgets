@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  width: inherit;
+  height: auto;
+  box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tabs {
+  width: 200px;
+}
+
+.tabs ul {
+  list-style-type: none;
+}
+
+.tabs li {
+  display: block;
+  float: left;
+  width: 33%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+  cursor: pointer;
+	text-align: center;
+}
+
+article {
+  display: flex;
+  align-items: center;
+	justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+	width: inherit;
+}
+
+.tabs li:hover {
+  background: black;
+  color: white;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+.names > li {
+	list-style-type: circle;
+}
+
+.timedate {
+	display: block;
+	border: 2px solid black;
+	/*text-align: justify;*/
+}
+
+.city-temp {
+	display: block;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.autocomplete {
+	float: left;
+	text-align: center;
+	width: 200px;
+}
+
+.input-list {
+	border: 1px solid black;
+}
+
+h1 {
+	padding: 5px;
+}
